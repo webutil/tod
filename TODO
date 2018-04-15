@@ -1,0 +1,8 @@
+ - Allow a GH repo to be setup
+  1. User access token
+  2. Select Repo
+  3. Add webhook
+  4. Fetch meta info
+ - Allow a Slack team to be setup
+  1. Allow adding of @tod to a channel
+  2. Select tags which should be shown on channel
