@@ -28,6 +28,8 @@ defmodule TODWeb.Router do
 
     get "/", PageController, :index
     post "/slack/webhook", PageController, :slack_webhook
+
+    resources "/accounts", AccountController, singleton: true
   end
 
   # Other scopes may use custom stacks.

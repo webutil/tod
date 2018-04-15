@@ -21,6 +21,7 @@
 
   <div class="col-lg-6">
     <h4>Help</h4>
+    <a href="/auth/github">GitHub Login</a>
     <ul>
       <li>
         <a href="http://groups.google.com/group/phoenix-talk">Mailing list</a>

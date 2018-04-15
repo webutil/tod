@@ -41,7 +41,8 @@ defmodule TOD.Mixfile do
       {:httpoison, "~> 1.0", override: true},
       {:jason, "~> 1.0"},
       {:ueberauth, "~> 0.4"},
-      {:ueberauth_github, "~> 0.7"}
+      {:ueberauth_github, "~> 0.7"},
+      {:cortex, "> 0.0.0", only: :dev}
     ]
   end
 end

@@ -1,0 +1,12 @@
+<h1>New Account</h1>
+
+<%= form_for @conn, account_path(@conn, :create), [as: :account], fn f -> %>
+  <label for='account_github_url'>
+    GitHub Repository Full URL:
+  </label>
+  <br>
+  <%= text_input f, :github_url, placeholder: "https://github.com/webutil/example-tod"%>
+  <br>
+
+  <%= submit "Submit" %>
+<% end %>
