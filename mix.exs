@@ -42,6 +42,7 @@ defmodule TOD.Mixfile do
       {:jason, "~> 1.0"},
       {:ueberauth, "~> 0.4"},
       {:ueberauth_github, "~> 0.7"},
+      {:tentacat, "~> 0.9"},
       {:cortex, "> 0.0.0", only: :dev}
     ]
   end
